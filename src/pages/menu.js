@@ -1,11 +1,16 @@
 const menus = [
   {
     id: 1,
+    name: "About",
+    links: "#about",
+  },
+  {
+    id: 2,
     name: "Missions",
     links: "#missions",
   },
   {
-    id: 2,
+    id: 3,
     name: "Socials",
     links: "#socials",
   },

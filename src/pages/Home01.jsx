@@ -6,7 +6,8 @@ import dataPortfolio from "../assets/fake-data/data-portfolio";
 import img from "../assets/images/items/snake1.png";
 import Partners from "../components/layouts/Partners";
 import Portfolio from "../components/layouts/Portfolio";
-import ImageFlips from "./ImageFlips";
+import Blog from "../components/layouts/Blog";
+import dataBlog from "../assets/fake-data/data-blog";
 
 const Home01 = () => {
   return (
@@ -28,6 +29,7 @@ const Home01 = () => {
             </div>
           </div>
         </section>
+        <Blog data={dataBlog} />
         <Portfolio data={dataPortfolio} />
       </div>
       {/* <About /> */}

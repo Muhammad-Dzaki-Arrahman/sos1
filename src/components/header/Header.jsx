@@ -4,7 +4,7 @@ import menus from "../../pages/menu";
 
 import "./header.scss";
 
-import logo from "../../assets/fake-data/logo";
+import logo from "../../assets/images/logo/sos-logo1.png";
 import ButtonOne from "../button/ButtonOne";
 
 const Header = () => {
@@ -41,11 +41,15 @@ const Header = () => {
           <div className="col-12">
             <div className="header__body d-flex justify-content-between">
               <div className="header__logo">
-                {/* <Link to="/">
-                                    <img id="site-logo" src={logo}
-                                    alt="Monteno"  />
-                                </Link> */}
-                <h1>Snake on Solana</h1>
+                <a href="#">
+                  <img
+                    id="site-logo"
+                    src={logo}
+                    alt="Snek on Solana"
+                    width={120}
+                    height={100}
+                  />
+                </a>
               </div>
 
               <div className="header__right">

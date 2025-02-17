@@ -10,13 +10,13 @@ const Portfolio = (props) => {
         <div className="row">
           <div className="col-md-12">
             <div className="block-text center">
-              <h1
+              {/* <h1
                 className="heading-bg"
                 data-aos="fade-in"
                 data-aos-duration="1000"
               >
                 <span>Missions</span>
-              </h1>
+              </h1> */}
               <h5
                 className="sub-title mb-10"
                 data-aos="fade-up"
